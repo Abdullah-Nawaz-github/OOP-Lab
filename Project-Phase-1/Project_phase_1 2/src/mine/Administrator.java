@@ -30,7 +30,7 @@ public class Administrator extends Staff {
 	public Administrator(int memberId, String name, String mobileNo, String nationality, String gender,
 			LocalDate hiredate, double salary, String jobTitle) {
 		super(memberId, name, mobileNo, nationality, gender, hiredate, salary);
-		this.jobTitle = jobTitle;
+		this.setJobTitle(jobTitle);
 	}
 
 	/**

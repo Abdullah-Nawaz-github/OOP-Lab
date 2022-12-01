@@ -51,7 +51,7 @@ public class Club {
 	 */
 	public Club(String name, String city, String website, String phone, ArrayList<Member> members,
 			ArrayList<Session> sessions) {
-		this.name = name;
+		this.setName(name);
 		this.city = city;
 		this.website = website;
 		this.phone = phone;
